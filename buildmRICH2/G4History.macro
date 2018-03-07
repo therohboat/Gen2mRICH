@@ -1,0 +1,25 @@
+/run/verbose 2
+/vis/scene/create
+/vis/open OGLIQt
+/vis/sceneHandler/create OGLIQt
+/vis/sceneHandler/attach
+/vis/viewer/create ! ! 600
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+/vis/scene/notifyHandlers scene-0
+/vis/scene/endOfEventAction accumulate
+/gun/position 0.0 0.0 -170 mm
+/gun/momentum 0.0 0.0 4.0 GeV
+/gun/particle pi-
+/run/beamOn 1
+/vis/scene/notifyHandlers scene-0
+/run/beamOn 10
+/run/beamOn 100

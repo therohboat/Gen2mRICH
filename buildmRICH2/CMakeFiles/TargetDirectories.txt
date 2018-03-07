@@ -1,0 +1,7 @@
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/install.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/list_install_components.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/rebuild_cache.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/edit_cache.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/install/strip.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/install/local.dir
+/home/therohboat/g4work/Tutorial01192018/buildmRICH2/CMakeFiles/mrich2.dir
